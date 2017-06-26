@@ -5,6 +5,7 @@
 include:
   - sensu
   - sensu.rabbitmq_conf
+  - sensu.transport_conf
 
 {% if grains['os_family'] == 'Windows' %}
 /opt/sensu/bin/sensu-client.xml:
